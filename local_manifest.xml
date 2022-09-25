@@ -13,6 +13,6 @@
         <project name="vendor_xiaomi_land" path="vendor/xiaomi/land" remote="pravin" revision="12.1" />  
           
   <!-- Kernel Trees -->
-        <project name="kernel_xiaomi_land" path="kernel/xiaomi/land" remote="pravin" revision="12.1" /> 
+        <project name="kernel_xiaomi_msm8937" path="kernel/xiaomi/msm8937" remote="pravin" revision="12.1" /> 
           
 </manifest> 
