@@ -5,6 +5,8 @@
             fetch="https://github.com/PravinKumerSingh"/>
      <remote name="CherishOS"
             fetch="https://github.com/CherishOS"/>
+     <remote  name="clang"
+             fetch="https://github.com/kdrag0n" />
   
   <!-- Device Trees -->
         <project name="device_xiaomi_land" path="device/xiaomi/land" remote="pravin" revision="12.1" /> 
@@ -14,5 +16,8 @@
           
   <!-- Kernel Trees -->
         <project name="kernel_xiaomi_msm8937" path="kernel/xiaomi/msm8937" remote="pravin" revision="12.1" /> 
+   
+ <!-- Extras -->
+         <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="clang" revision="master" clone-depth="1"/>
           
 </manifest> 
