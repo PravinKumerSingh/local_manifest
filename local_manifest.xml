@@ -5,8 +5,8 @@
             fetch="https://github.com/PravinKumerSingh"/>
      <remote name="CherishOS"
             fetch="https://github.com/CherishOS"/>
-     <remote  name="clang"
-             fetch="https://github.com/kdrag0n" />
+     <remote name="ArrowOS-Devices" 
+                 fetch="https://github.com/ArrowOS-Devices" />
   
   <!-- Device Trees -->
         <project name="device_xiaomi_land" path="device/xiaomi/land" remote="pravin" revision="12.1" /> 
@@ -18,6 +18,6 @@
         <project name="kernel_xiaomi_msm8937" path="kernel/xiaomi/msm8937" remote="pravin" revision="12.1" /> 
    
  <!-- Extras -->
-         <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="clang" revision="master" clone-depth="1"/>
+         <project path="prebuilts/clang/host/linux-x86/clang-r416183b1" name="android_prebuilts_clang_host_linux-x86_clang-r416183b1" remote="ArrowOS-Devices" revision="arrow-11.0" clone-depth="1"/>
           
 </manifest> 
